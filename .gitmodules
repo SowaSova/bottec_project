@@ -1,3 +1,6 @@
 [submodule "adminpanel"]
 	path = adminpanel
 	url = git@github.com:SowaSova/bottec_admin.git
+[submodule "bot"]
+	path = bot
+	url = git@github.com:SowaSova/bottec_bot.git
