@@ -32,10 +32,16 @@ cd ../adminpanel && git clone git@github.com:SowaSova/bottec_admin.git .
 
 1. Переименовать файлы .env, убрав "\_example"
 2. Добавить данные для переменных BOT_TOKEN и YOOKASSA_TOKEN
-3. Запустить контейнер
+3. Вернуться в рут-директорию
+
+```bash
+cd ..
+```
+
+4. Запустить контейнер
 
 ```bash
 docker compose up -d --build
 ```
 
-4. Для доступа к админ-панели ([ссылка](http://localhost:8000))
+5. Для доступа к админ-панели ([ссылка](http://localhost:8000))
